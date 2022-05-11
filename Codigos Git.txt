@@ -8,6 +8,10 @@ git log                                  Nos muestra todos los commits realizado
 git branch                               Nos muestra las ramas que hay en mi repositorio local
 git branch "nombre"                      Nos crea una nueva rama
 git checkout "nombre"                    Nos cambia a la rama "nombre"
+git branch -d "nombre"                   Nos elimina la rama "nombre"
+git checkout -b "nombre"                 Nos Crea una rama "nombre" y nos cambia a ella
+git branch -m "nombreviejo" "nombre"     Nos renombra la rama de "nombreviejo" a "nombre"
+git branch -h                            Nos muestra todos los comandos q existen
 
 Para pasar los cambios realizados en la rama develop a la master:
 git checkout master
