@@ -2,7 +2,7 @@ git init                                 Iniciamos un repositorio local en una c
 git add "nombre" o "."                   Estos nos pasa de la zona de trabajo a la zona de preparación
 git config --global user.email "mail"
 git congif --global user.name "nombre"
-git commit -m "mensaje"                  Nos comitea todo en el repositorio local con el mensaje q le dimos
+git commit -m "mensaje"                  Nos comitea todo en el repositorio local con el mensaje q le dimos(si nos olvidamos de usar -m, apretamos "i","msj",":wq")
 git status                               Nos Dice que archivos estan en la zona de trabajo
 git log                                  Nos muestra todos los commits realizados
 git branch                               Nos muestra las ramas que hay en mi repositorio local
