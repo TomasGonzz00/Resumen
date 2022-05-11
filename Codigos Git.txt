@@ -1,0 +1,23 @@
+git init                                 Iniciamos un repositorio local en una carpeta
+git add "nombre" o "."                   Estos nos pasa de la zona de trabajo a la zona de preparación
+git config --global user.email "mail"
+git congif --global user.name "nombre"
+git commit -m "mensaje"                  Nos comitea todo en el repositorio local con el mensaje q le dimos
+git status                               Nos Dice que archivos estan en la zona de trabajo
+git log                                  Nos muestra todos los commits realizados
+git branch                               Nos muestra las ramas que hay en mi repositorio local
+git branch "nombre"                      Nos crea una nueva rama
+git checkout "nombre"                    Nos cambia a la rama "nombre"
+
+Para pasar los cambios realizados en la rama develop a la master:
+git checkout master
+git merge develop
+
+GitHub
+git remote add origin "url del repositorio" 
+git push -u origin master Nos sube el repositorio local al de la nube
+git clone "url del repositorio" Para clonar
+
+Si nos da el error error: remote origin already exists.
+git remote --verbose                  Nos muestra el repositorio vinculado
+git remote set-url origin "nueva url" Nos cambia la url del repositorio
