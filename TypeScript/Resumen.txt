@@ -1,0 +1,6 @@
+Primero instalamos de manera global 2 pluggins 
+Global: npm install -g ts-node (funcion: nos permite correr el archivo TS en la consola sin convertirlo en JS.)
+        npm install -g typescript
+Local en la terminal de tu proyecto:
+        npm install -D ts-node
+        npm install -D ts-node
