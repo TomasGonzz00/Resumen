@@ -21,6 +21,7 @@ GitHub
 git remote add origin "url del repositorio" 
 git push -u origin master Nos sube el repositorio local al de la nube
 git clone "url del repositorio" Para clonar
+git pull origin master Para extraer los cambios del repositorio online
 
 Si nos da el error error: remote origin already exists.
 git remote --verbose                  Nos muestra el repositorio vinculado
