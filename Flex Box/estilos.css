@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+                        
+
+.flex-container {
+    background-color: darkgray ;
+    display: flex;  
+    justify-content:right;  /*ordenar si queremos que las cajas esten al incio, distribuidas, der, izq
+    /* flex-direction: row;       /* Podemos cambiar la forma en la q se agrupan las cajas 
+                                     column, row , column-inverse , row inverse */            
+    border: 3px solid black;
+    padding: 10px;
+    align-items: baseline; /* alinea los elementos en vertical, baseline nos alinea con la linea de base de la letra */
+                              
+    /* con flew-wrap: wrap se van acodando las cajas segun el lugar que disponen
+    se agregan filas si no entran, con flew-wrap: nowrap hacen que entren sigo si en una sola fila*/
+}
+.flex-container div{
+    background-color: darkkhaki ;
+    text-align: center;          /* elegimos si queremos q este centrada */                 
+    border: 3px solid black;
+    padding: 10px;
+    width: 100px;
+}
