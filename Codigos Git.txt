@@ -26,3 +26,8 @@ git pull origin master Para extraer los cambios del repositorio online
 Si nos da el error error: remote origin already exists.
 git remote --verbose                  Nos muestra el repositorio vinculado
 git remote set-url origin "nueva url" Nos cambia la url del repositorio
+
+Para clonar con Angular,
+git clone "url"
+y despues abrimos cmd en la carpeta padre
+npm install (nos instala node_modules)
